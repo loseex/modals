@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="modal.css" />
+  </head>
+  <body>
+    <div class="modal-overlay" id="modal" aria-hidden="true">
+      <div class="modal-container">
+        <h1>Окно #1</h1>
+        <button id="close">Закрыть окно</button>
+      </div>
+    </div>
+
+    <div class="modal-overlay" id="modal-secondary" aria-hidden="true">
+      <div class="modal-container">
+        <h1>Окно #2</h1>
+        <button id="close">Закрыть окно</button>
+        <button id="trigger-three">Открыть окно #3</button>
+      </div>
+    </div>
+
+    <div class="modal-overlay" id="modal-three" aria-hidden="true">
+      <div class="modal-container">
+        <h1>Окно #3</h1>
+        <button id="close">Закрыть окно</button>
+      </div>
+    </div>
+
+    <button id="trigger">Открыть окно #1</button>
+    <button id="trigger-secondary">Открыть окно #2</button>
+
+    <script src="index.js"></script>
+  </body>
+</html>
