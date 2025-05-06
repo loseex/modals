@@ -26,7 +26,7 @@ const modal_three = document.getElementById("modal-three");
 
 const trigger = document.getElementById("trigger");
 const trigger_secondary = document.getElementById("trigger-secondary");
-const trigger_three = document.getElementById("trigger-three");
+const trigger_three = document.getElementById("trigger-third");
 
 trigger.addEventListener("click", () => {
   Modal.open(modal);
