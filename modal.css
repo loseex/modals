@@ -25,6 +25,10 @@
   border-radius: 0.5rem;
 }
 
+.modal-overlay .modal-container * {
+  margin-bottom: 0.4rem;
+}
+
 .modal-overlay .modal-container button {
   background-color: cornflowerblue;
   padding: 0.8rem;
